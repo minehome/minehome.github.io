@@ -41,17 +41,17 @@ $(document).ready(function () {
   })
   function playDelete() {
     console.log("Played");
-    var audio = new Audio('http://127.0.0.1:5500/delete.mp3');
+    var audio = new Audio('http://minehome.github.io/delete.mp3');
     audio.play();
   }
   function playAdd() {
     console.log("Played");
-    var audio = new Audio('http://127.0.0.1:5500/addtodo.mp3');
+    var audio = new Audio('http://minehome.github.io/addtodo.mp3');
     audio.play();
   }
   function playEdit() {
     console.log("Played");
-    var audio = new Audio('http://127.0.0.1:5500/edittodo.mp3');
+    var audio = new Audio('http://minehome.github.io/edittodo.mp3');
     audio.play();
   }
 });
